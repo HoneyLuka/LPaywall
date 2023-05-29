@@ -11,9 +11,9 @@ import SnapKit
 
 public extension PaywallViewController {
     struct PaywallListItem {
-        let image: UIImage
-        let text: String
-        let tintColor: UIColor
+        public let image: UIImage
+        public let text: String
+        public let tintColor: UIColor
     }
 }
 
