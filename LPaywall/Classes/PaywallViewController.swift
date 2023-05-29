@@ -14,6 +14,12 @@ public extension PaywallViewController {
         public let image: UIImage
         public let text: String
         public let tintColor: UIColor
+        
+        public init(image: UIImage, text: String, tintColor: UIColor) {
+            self.image = image
+            self.text = text
+            self.tintColor = tintColor
+        }
     }
 }
 
